@@ -1,0 +1,193 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    /* padding: 20px 0; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    text-align: center;
+    font-size: 50px;
+    font-weight:600;
+    font-family: DM Sans,sans-serif;
+    color: #426b77; 
+    text-decoration:none;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .menu li a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .user {
+    background-image: url('user-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .user-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .user-subtitle {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #C4F4F8;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+  
+  .btn-primary {
+    background-color: #426b77;
+  }
+  
+  .btn-secondary {
+    background-color: #426b77;
+  }
+  
+  .btn:hover{
+    background-color: #619cad;
+  }
+  .section-title {
+    color: #2a4e58;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  #features{
+    background-color: #dbe9ed;
+  }
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .feature img {
+    border: 5px solid #5553;
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .feature-description {
+    font-size: 16px;
+    color: #555555;
+  }
+
+  .resume-parsing{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  
+  #testimonials {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .testimonial blockquote {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-author {
+    font-size: 16px;
+    color: #555555;
+  }
+  
+  #get-started {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #dbe9ed;
+  }
+  
+  #get-started .section-description {
+    font-size: 20px;
+    color: #555555;
+    margin-bottom: 40px;
+  }
+  
+  footer {
+    background-color: #333333;
+    padding: 20px 0;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 767px) {
+    .container {
+      padding: 0 10px;
+    }
+    
+    .menu li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
